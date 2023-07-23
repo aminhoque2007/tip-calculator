@@ -16,6 +16,7 @@
 		EB20CD812A5B1CEB00A6C1F1 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20CD7F2A5B1CEB00A6C1F1 /* TipCalculator.swift */; };
 		EB20CD892A5B346F00A6C1F1 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20CD882A5B346F00A6C1F1 /* TipCalculatorUITests.swift */; };
 		EB20CD8B2A5B346F00A6C1F1 /* TipCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB20CD8A2A5B346F00A6C1F1 /* TipCalculatorUITestsLaunchTests.swift */; };
+		EB75159F2A6D9745001A1CDE /* ContentViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75159E2A6D9745001A1CDE /* ContentViewPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EB20CD8A2A5B346F00A6C1F1 /* TipCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EB75159B2A6D6BFD001A1CDE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EB75159C2A6D88C9001A1CDE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EB75159E2A6D9745001A1CDE /* ContentViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,10 +139,19 @@
 		EB20CD872A5B346F00A6C1F1 /* TipCalculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
+				EB75159D2A6D972D001A1CDE /* PageObjects */,
 				EB20CD882A5B346F00A6C1F1 /* TipCalculatorUITests.swift */,
 				EB20CD8A2A5B346F00A6C1F1 /* TipCalculatorUITestsLaunchTests.swift */,
 			);
 			path = TipCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		EB75159D2A6D972D001A1CDE /* PageObjects */ = {
+			isa = PBXGroup;
+			children = (
+				EB75159E2A6D9745001A1CDE /* ContentViewPage.swift */,
+			);
+			path = PageObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB75159F2A6D9745001A1CDE /* ContentViewPage.swift in Sources */,
 				EB20CD8B2A5B346F00A6C1F1 /* TipCalculatorUITestsLaunchTests.swift in Sources */,
 				EB20CD892A5B346F00A6C1F1 /* TipCalculatorUITests.swift in Sources */,
 			);
